@@ -20,7 +20,7 @@ end
 
 def using_flatten(instruments)
   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  flat_arry = instruments.flatten
+  flat_array = instruments.flatten!
   p flat_array
 end
 
