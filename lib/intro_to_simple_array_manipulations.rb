@@ -18,9 +18,11 @@ def using_uniq (haircuts)
   p new_array
 end
 
-#def using_flatten(array)
-#  .flatten
-#end
+def using_flatten(array)
+ .flatten
+end
+
+
 #####
 #####def using_delete (array, string)
 #####  .delete
