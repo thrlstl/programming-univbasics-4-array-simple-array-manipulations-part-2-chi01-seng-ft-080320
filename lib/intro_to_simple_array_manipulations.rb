@@ -26,7 +26,7 @@ end
 
 def using_delete (instructors, "Steven")
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-.delete
+  no_offense_steven = instructors.delete
 end
 
 #####def using_delete_at (array, integer)
