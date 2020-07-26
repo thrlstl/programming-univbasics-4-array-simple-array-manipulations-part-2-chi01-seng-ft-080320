@@ -18,8 +18,10 @@ def using_uniq (haircuts)
   p new_array
 end
 
-def using_flatten(array)
- .flatten
+def using_flatten(instruments)
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  flat_arry = instruments.flatten
+  p flat_array
 end
 
 
