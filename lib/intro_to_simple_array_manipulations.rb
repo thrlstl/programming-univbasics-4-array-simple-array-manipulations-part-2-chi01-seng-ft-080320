@@ -15,7 +15,7 @@ end
 def using_uniq (haircuts)
   haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
   new_array = haircuts.uniq
-  puts new_array
+  p new_array
 end
 
 #def using_flatten(array)
