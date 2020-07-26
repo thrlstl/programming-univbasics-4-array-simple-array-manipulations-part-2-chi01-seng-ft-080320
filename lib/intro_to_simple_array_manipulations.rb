@@ -24,11 +24,9 @@ def using_flatten(instruments)
   p flat_array
 end
 
-
-#####
-#####def using_delete (array, string)
-#####  .delete
-#####end
+def using_delete (array, string)
+.delete
+end
 
 #####def using_delete_at (array, integer)
 #####  .delete_at 
