@@ -24,12 +24,10 @@ def using_flatten(instruments)
   p flat_array
 end
 
-def using_delete (instructors, string = "Steven")
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.delete(string)
-  p instructors
+def using_delete(array, string)
+  array.delete(string)
 end
 
-#####def using_delete_at (array, integer)
-#####  .delete_at 
-#####end
+def using_delete_at(array, integer)
+  array.delete_at(integer)
+end
